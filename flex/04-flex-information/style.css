@@ -7,9 +7,41 @@ img {
   height: 100px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
 .title {
+  margin-bottom: 32px;
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-left: 52px;
+  margin-right: 52px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 /* do not edit this footer */
